@@ -1,0 +1,425 @@
+
+/* Bubble Animation */
+
+.b1{
+    position:absolute;
+    animation: b1Bubble 5s ease-in-out infinite;
+}
+
+.b2{
+    position:absolute;
+    animation: b2Bubble 6s ease-in-out infinite;
+}
+
+
+.b3{
+    position:absolute;
+    animation: b3Bubble 4s ease-in-out infinite;
+}
+
+
+.b4{
+    position:absolute;
+    animation: b4Bubble 4s ease-in-out infinite;
+}
+
+
+.b5{
+    position:absolute;
+    animation: b5Bubble 6s ease-in-out infinite;
+}
+
+
+.b6{
+    position:absolute;
+    animation: b6Bubble 4s ease-in-out infinite;
+}
+
+
+
+.b7{
+    position:absolute;
+    animation: b7Bubble 5s ease-in-out infinite;
+}
+
+
+
+.b8{
+    position:absolute;
+    animation: b8Bubble 6s ease-in-out infinite;
+}
+
+
+.b9{
+    position:absolute;
+    animation: b9Bubble 5.5s ease-in-out infinite;
+}
+
+
+.b10{
+    position:absolute;
+    animation: b10Bubble 4.5s ease-in-out infinite;
+}
+
+
+.b11{
+    position:absolute;
+    animation: b11Bubble 6s ease-in-out infinite;
+}
+
+
+.b12{
+    position:absolute;
+    animation: b12Bubble 4s ease-in-out infinite;
+}
+
+
+.b13{
+    position:absolute;
+    animation: b13Bubble 5s ease-in-out infinite;
+}
+
+
+.b14{
+    position:absolute;
+    animation: b14Bubble 6.4s ease-in-out infinite;
+}
+
+
+.b15{
+    position:absolute;
+    animation: b15Bubble 5.8s ease-in-out infinite;
+}
+
+
+.b16{
+    position:absolute;
+    animation: b16Bubble 4s ease-in-out infinite;
+}
+
+
+.b17{
+    position:absolute;
+    animation: b17Bubble 7s ease-in-out infinite;
+}
+
+
+.b18{
+    position:absolute;
+    animation: b18Bubble 5s ease-in-out infinite;
+}
+
+
+@keyframes b1Bubble{
+    0%{
+        top: 600px;
+        left: 300px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 320px;
+        left: 300px;
+        width: 50px;
+        height: auto;
+    }
+}
+
+@keyframes b2Bubble{
+    0%{
+        top: 600px;
+        left: 290px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 320px;
+        left: 290px;
+        width: 60px;
+        height: auto;
+    }
+}
+
+
+@keyframes b3Bubble{
+    0%{
+        top: 600px;
+        left: 350px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 300px;
+        left: 350px;
+        width: 70px;
+        height: auto;
+    }
+}
+
+
+
+@keyframes b4Bubble{
+    0%{
+        top: 600px;
+        left: 500px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 300px;
+        left: 500px;
+        width: 50px;
+        height: auto;
+    }
+}
+
+
+
+@keyframes b5Bubble{
+    0%{
+        top: 600px;
+        left: 150px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 300px;
+        left: 150px;
+        width: 50px;
+        height: auto;
+    }
+}
+
+
+@keyframes b6Bubble{
+    0%{
+        top: 600px;
+        left: 500px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 300px;
+        left: 500px;
+        width:100px;
+        height: auto;
+    }
+}
+
+
+@keyframes b7Bubble{
+    0%{
+        top: 600px;
+        left: 600px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 300px;
+        left: 600px;
+        width: 90px;
+        height: auto;
+    }
+}
+
+
+@keyframes b8Bubble{
+    0%{
+        top: 600px;
+        left: 550px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 300px;
+        left: 550px;
+        width: 50px;
+        height: auto;
+    }
+}
+
+
+@keyframes b9Bubble{
+    0%{
+        top: 600px;
+        left: 200px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 300px;
+        left: 200px;
+        width: 80px;
+        height: auto;
+    }
+}
+
+
+
+@keyframes b10Bubble{
+    0%{
+        top: 600px;
+        left: 100px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 300px;
+        left: 100px;
+        width: 50px;
+        height: auto;
+    }
+}
+
+
+
+@keyframes b11Bubble{
+    0%{
+        top: 600px;
+        left: 550px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 300px;
+        left: 550px;
+        width: 80px;
+        height: auto;
+    }
+}
+
+
+
+@keyframes b12Bubble{
+    0%{
+        top: 600px;
+        left: 250px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 300px;
+        left: 250px;
+        width: 60px;
+        height: auto;
+    }
+}
+
+
+
+@keyframes b13Bubble{
+    0%{
+        top: 600px;
+        left: 300px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 300px;
+        left: 300px;
+        width: 60px;
+        height: auto;
+    }
+}
+
+
+
+@keyframes b14Bubble{
+    0%{
+        top: 600px;
+        left: 500px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 300px;
+        left: 500px;
+        width: 50px;
+        height: auto;
+    }
+}
+
+
+
+@keyframes b15Bubble{
+    0%{
+        top: 600px;
+        left: 450px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 320px;
+        left: 450px;
+        width: 60px;
+        height: auto;
+    }
+}
+
+
+
+@keyframes b16Bubble{
+    0%{
+        top: 600px;
+        left: 170px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 300px;
+        left: 170px;
+        width: 50px;
+        height: auto;
+    }
+}
+
+
+
+@keyframes b17Bubble{
+    0%{
+        top: 600px;
+        left: 600px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 300px;
+        left: 600px;
+        width: 50px;
+        height: auto;
+    }
+}
+
+
+@keyframes b18Bubble{
+    0%{
+        top: 600px;
+        left: 520px;
+        width: 10px;
+        height: auto;
+    }
+
+    100%{
+        top: 300px;
+        left: 520px;
+        width: 50px;
+        height: auto;
+    }
+}

@@ -1,0 +1,265 @@
+.tt-btn {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.tt-btn .button,
+.tt-btn .mask {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 17px;
+  z-index: 2;
+  font-weight: 600;
+  padding: 10px 27px 10px;
+  height: 52px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  background: -webkit-gradient(linear, right top, left top, from(#44ae6f), to(#54b963));
+  background: linear-gradient(to left, #44ae6f, #54b963);
+  border-radius: 0;
+  text-align: center;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  border: 2px solid #3BC7F4;
+  -webkit-transition: color .2s, background-color .2s, border-color .2s;
+  transition: color .2s, background-color .2s, border-color .2s;
+  white-space: nowrap;
+}
+
+.tt-btn .button {
+  background: -webkit-gradient(linear, right top, left top, from(#44ae6f), to(#54b963));
+  background: linear-gradient(to left, #44ae6f, #54b963);
+  -webkit-mask: url("../images/btn-mask.png");
+  mask: url("../images/btn-mask.png");
+  -webkit-mask-size: 3000% 100%;
+  mask-size: 3000% 100%;
+  border: none;
+  -webkit-animation: ani2 0.7s steps(29);
+  animation: ani2 0.7s steps(29);
+}
+
+.tt-btn .mask {
+  position: absolute;
+  background: transparent !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  color: #3BC7F4;
+  pointer-events: none;
+}
+
+.tt-btn:hover .mask {
+  color: #3BC7F4;
+}
+
+.tt-btn:hover .button {
+  -webkit-animation: ani 0.7s steps(29) forwards;
+  animation: ani 0.7s steps(29) forwards;
+}
+
+@keyframes ani2 {
+  from {
+    /* -webkit-mask-position: 100% 0; */
+    mask-position: 100% 0;
+  }
+
+  to {
+    /* -webkit-mask-position: 0 0; */
+    mask-position: 0 0;
+  }
+}
+
+@keyframes ani {
+  from {
+    /* -webkit-mask-position: 0 0; */
+    mask-position: 0 0;
+  }
+
+  to {
+    /* -webkit-mask-position: 100% 0; */
+    mask-position: 100% 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* WITH COMMENTED CODE FOR THE OLDER BROWSER SUPPORT (SIMPLIFIED VERSION) */
+/*---START---*/
+
+.tt-btn {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.tt-btn .button,
+.tt-btn .mask {
+
+  /*CSS FOR OLDER BROWSER SUPPORT IS COMMENTED ONLY*/
+
+  /* display: -webkit-inline-box;
+    display: -ms-inline-flexbox; */
+  display: inline-flex;
+
+
+  /* -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row; */
+  flex-direction: row;
+
+  /* -ms-flex-wrap: nowrap; */
+  flex-wrap: nowrap;
+
+
+  /* -webkit-box-pack: center; --> Horizontally centers within flex container
+    -ms-flex-pack: center; */
+  justify-content: center;
+
+
+  /* -ms-flex-line-pack: center; */
+  align-content: center;
+
+
+  /* -webkit-box-align: center;
+    -ms-flex-align: center; */
+  align-items: center;
+
+  font-size: 14px;
+  line-height: 17px;
+  z-index: 2;
+  font-weight: 600;
+  padding: 10px 27px 10px;
+  height: 52px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+
+  /* background: -webkit-gradient(linear, right top, left top, from(#44ae6f), to(#54b963)); */
+  background: linear-gradient(to left, #44ae6f, #54b963);
+
+  border-radius: 0;
+  text-align: center;
+
+  /* -webkit-box-shadow: none; */
+  box-shadow: none;
+
+  outline: none;
+  border: 2px solid #3BC7F4;
+
+  /* -webkit-transition: color .2s, background-color .2s, border-color .2s; */
+  transition: color .2s, background-color .2s, border-color .2s;
+
+  white-space: nowrap;
+}
+
+.tt-btn .button {
+
+  /* background: -webkit-gradient(linear, right top, left top, from(#44ae6f), to(#54b963)); */
+  background: linear-gradient(to left, #44ae6f, #54b963);
+
+  /* -webkit-mask: url("/images/test_btn-mask.png"); */
+  mask: url("/images/test_btn-mask.png");
+
+  /* -webkit-mask-size: 3000% 100%; */
+  mask-size: 3000% 100%;
+
+  border: none;
+
+  /* -webkit-animation: ani2 0.7s steps(29); */
+  animation: ani2 0.7s steps(29);
+}
+
+.tt-btn .mask {
+  position: absolute;
+  background: transparent !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  color: #3BC7F4;
+  pointer-events: none;
+}
+
+.tt-btn:hover .mask {
+  color: #3BC7F4;
+}
+
+.tt-btn:hover .button {
+  /* -webkit-animation: ani 0.7s steps(29) forwards; */
+  animation: ani 0.7s steps(29) forwards;
+}
+
+@keyframes ani2 {
+  from {
+    /* -webkit-mask-position: 100% 0; */
+    mask-position: 100% 0;
+  }
+
+  to {
+    /* -webkit-mask-position: 0 0; */
+    mask-position: 0 0;
+  }
+}
+
+@keyframes ani {
+  from {
+    /* -webkit-mask-position: 0 0; */
+    mask-position: 0 0;
+  }
+
+  to {
+    /* -webkit-mask-position: 100% 0; */
+    mask-position: 100% 0;
+  }
+}
+
+
+/* WITH COMMENTED CODE FOR THE OLDER BROWSER SUPPORT (SIMPLIFIED VERSION) */
+/*---END---*/
+
+
+
+/* ---HTML FOR THE ABOVE CSS TO ACHIEVE THE MASKED HOVER EFFECT--- */
+
+/*
+ *   <a href="#" class="tt-btn">
+ *   <span class="mask">Schedule a Pickup</span>
+ *   <div class="button">Schedule a Pickup</div>
+ *   </a>
+*/

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- jQuery CDN hosted by Google -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- jQuery CDN hosted by jQuery Foundation -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <style>
+        .popup {
+            width: 500px;
+            height: 300px;
+            opacity: 0;
+            display: none;
+            position: fixed;
+            top: 100px;
+            left: 400px;
+            border: 1px solid black;
+        }
+
+        .v{
+            display: block;
+            opacity: 1;
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button id="btn">
+        popup
+    </button>
+
+    <div class="popup">
+
+    </div>
+
+</body>
+
+<script>
+
+    $(document).ready(function () {
+
+        let i = 0;
+
+        $("#btn").click(function () {
+           $(".popup").toggleClass("v");
+        });
+
+    });
+
+</script>
+
+</html>
