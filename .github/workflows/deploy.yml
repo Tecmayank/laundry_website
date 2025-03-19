@@ -1,0 +1,28 @@
+name: Deploy Static Website with Docker
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Login to Docker Hub
+        run: echo "${{ secrets.DOCKER_7879828287Mm@ }}" | docker login -u "${{ secrets.DOCKER_mayankmeena9977@gmail.com }}" --password-stdin
+
+      - name: Build Docker Image
+        run: docker build -t tecmayank/laundry-website:latest .
+
+      - name: Push Docker Image to Docker Hub
+        run: docker push tecmayank/laundry-website:latest
+
+      - name: Deploy to AWS using Terraform
+        run: |
+          terraform init
+          terraform apply -auto-approve
